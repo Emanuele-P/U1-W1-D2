@@ -16,12 +16,14 @@
       <div class="epicode">Epicode - Il blog dei developers
       </div>
     </header>
-    <nav class="top menu"><div class="1">Home</div>
-      <div class="2">Articoli</div>
-      <div class="3">Lavora con noi</div></nav>
+    <nav class="top-menu">
+      <div class="one"><h2>HOME</h2></div>
+      <div class="one"><h2>ARTICOLI</h2></div>
+      <div class="one"><h2>LAVORA CON NOI</h2></div>
+    </nav>
     <main>
       <h1>
-        Come creare un template per i post di Mario Rossi <h2>Pubblicato il
+        Come creare un template per i post di Mario Rossi <h2 class="published">Pubblicato il
           25-10-2020</h2>
       </h1>
       <p>
@@ -34,7 +36,7 @@
         <li>Contenuti centrali variabili del tag &lt;main&gt; (corpo principale)</li>
         <li>Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;</footer></li>
       </ul>
-      <h3>Formattazione del codice</h3>
+      <h3 class="mid-title">Formattazione del codice</h3>
       <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:</p>
       <ol>
         <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
@@ -89,28 +91,29 @@
         nostro obiettivo e saremo stati dei veri developers come loro:
       </p>
       <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/I98MaARkdho?si=N1nYkgoKNIcWU_e7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-      <div><p>Vuoi rimanere aggiornato su altre novità del blog? iscriviti alla nostra newsletter:</p>
-        <form class="form-newsletter">
+      <div class="form-newsletter"><p>Vuoi rimanere aggiornato su altre novità del blog? iscriviti alla nostra newsletter:</p>
+        <form>
           <input type="email" id="email" placeholder="Inserisci la tua email">
-          <input type="submit" value="Iscriviti!">
+          <input type="submit" value="Iscriviti!" class="button">
         </form>
       </div>
     </main>
     <aside>
-      <h4>Articoli correlati
-        Validare il codice HTML
+      <div>
+        <h3>Articoli correlati</h3>
+        <a href="#">Validare il codice HTML</a>
         Categoria: develop
-        Data: 18-9-2020</h4>
-        <h4>Correggere la sintassi
+        Data: 18-9-2020</div>
+        <div><a href="#">Correggere la sintassi</a>
           Categoria: develop
           Data: 16-9-2020</h4>
-          <h4>Meno Kb nella pagina
+          <div><a href="#">Meno Kb nella pagina</a>
             Categoria: ottimizzazione
             Data: 30-9-2020</h4>
     </aside>
     <footer>
-      Blog Epicode ©2023 
-      <p>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.</p>
+      Blog Epicode ©2023 <br>
+      Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
       <a href="mailto:info@epicode.school">info@epicode.school</a>
     </footer>
   </body>
